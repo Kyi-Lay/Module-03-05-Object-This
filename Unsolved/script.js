@@ -1,5 +1,5 @@
 // TODO: What is `this` referring to here?
-   //  Ans: browser (window)
+   //  Ans: browser (window).
 console.log(this);
 
 
@@ -22,7 +22,7 @@ var child = {
 // TODO: What is `this` referring to here? What will be logged in the console?
   // Ans: refer investment object.
   // Ans: 5750
-  Object 
+  Object .
 var investor = {
   name: 'Cash Saver',
   investment: {
