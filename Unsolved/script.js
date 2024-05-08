@@ -1,15 +1,15 @@
-// TODO: What is `this` referring to here?
+// What is `this` referring to here?
    //  Ans: browser (window).
 console.log(this);
 
 
-// TODO: What is `this` referring to here?
+// What is `this` referring to here?
 //  Ans: browser (window)
 function helloThis() {
   console.log('Inside this function, this is ' + this);
 }
 
-// TODO: What is `this` referring to here? What will be logged in the console?
+// What is `this` referring to here? What will be logged in the console?
   // ans: refer child object.
   // Object + 20
 var child = {
@@ -19,7 +19,7 @@ var child = {
   }
 };
 
-// TODO: What is `this` referring to here? What will be logged in the console?
+// What is `this` referring to here? What will be logged in the console?
   // Ans: refer investment object.
   // Ans: 5750
   Object .
@@ -33,5 +33,5 @@ var investor = {
   }
 };
 
-// TODO: Call the `helloThis` function and the object methods to check results in the console
+// Call the `helloThis` function and the object methods to check results in the console
   console,log(helloThis);
